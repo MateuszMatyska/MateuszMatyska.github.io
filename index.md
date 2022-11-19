@@ -1,5 +1,5 @@
 ---
 title: mat3uszm CyberSecurity Blog
-layout: home
+layout: default
 ---
 
