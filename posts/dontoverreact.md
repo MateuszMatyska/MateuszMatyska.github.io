@@ -5,27 +5,27 @@ layout: default
 
 # Hack The Box: Don't Overreact walkthrough
 
-Dont Overreact is a CTF which you can find in Hack The Box mobile challenges. 
+Don't Overreact is a CTF which you can find in Hack The Box mobile challenges.
 
-It's really good mobile challenge for begginiers in mobile application hacking. 
+It's a really good mobile challenge for beginners in mobile application hacking. 
 
 With this challenge you can learn how to do reverse engineering and how to check which technology was used to build application.
 
-To start doing Dont Overreact CTF you need to download necessery files from Hack The Box site and unzip it.
+To start doing Don't Overreact CTF you need to download necessary files from Hack The Box site and unzip it.
 
 After that you find an android application file.
 
 ![Apkfile](/posts/dontoverreact/photo1.png)
 
-At first we should run it on some device to check how it works. Remember recon is very importand during hacking applications.
+At first we should run it on some device to check how it works. Remember recon is very important during hacking applications.
 
-Unfortunately application just display Hack The Box logo.
+Unfortunately the application just displays the Hack The Box logo.
 
-After that we can try to reverse this applicataion. 
+After that we can try to reverse this application.
 
-To reverse engineering android application we use d2j-dex2jar and apktool.
+To reverse engineering android applications we use d2j-dex2jar and apktool.
 
-Let's start from d2j-dex2jar becaue with that tool you can read code of application. 
+Let's start from d2j-dex2jar because with that tool you can read the code of the application. 
 
 To use d2j-dex2jar you need to use 
 
@@ -33,13 +33,13 @@ To use d2j-dex2jar you need to use
 d2j-dex2jar app_name
 ```
 
-To read code I used jd-gui tool.
+To read the code I used the jd-gui tool.
 
 ![jd-giu](/posts/dontoverreact/photo2.png)
 
-From code I can tell that applcation is written in React Native. React Native is a framework to build mobile application with Javascript. 
+From the code I can tell that the application is written in React Native. React Native is a framework to build mobile applications with Javascript.  
 
-So in next step I need to check how javascript code looks like. To find code I need to reverse application with apktool and find bundle file in assets directory.
+So in the next step I need to check how javascript code looks like. To find code I need to reverse the application with apktool and find the bundle file in assets directory.
 
 ```
 apktool d app_name
@@ -59,7 +59,7 @@ Now looks better
 
 ![beautify](/posts/dontoverreact/photo4.png)
 
-In t variable you can find debug property what looks very similar to base64 code. It's really worth to check if it is a flag.
+In t variable you can find a debug property that looks very similar to base64 code. It's really worth checking if it is a flag.
 
 ```
 var t = {
@@ -69,8 +69,8 @@ var t = {
     };
 ```
 
-To check it you can try to decode it with some webservices to decode base64 codes.
+To check it you can try to decode it with some web services to decode base64 codes.
 
-After check it I can say that was a right secret code.  
+After checking it I can say that was the right secret code.  
 
 Nice, flag was found.
