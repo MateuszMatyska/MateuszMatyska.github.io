@@ -13,6 +13,7 @@ More about me you can find in [/about](/sites/about.md)
 
 
 # Recents CTF Walkthroug Posts:
+* [Vulnhub: Jangow01](/posts/jangow01.md)
 * [Hack The Box: Inject](/posts/htb_inject.md)
 * [Hack The Box: APKey](/posts/apkey.md)
 * [Hack The Box: Cat](/posts/cat.md)

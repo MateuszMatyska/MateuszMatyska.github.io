@@ -3,7 +3,7 @@ title: mat3uszm HTB:Don't overreact
 layout: default
 ---
 
-# Hack The Box: Don't Overreact walkthrough
+# Don't Overreact walkthrough
 
 Don't Overreact is a CTF which you can find in Hack The Box mobile challenges.
 
