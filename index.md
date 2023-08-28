@@ -10,6 +10,7 @@ More about me you can find in [/about](/sites/about.md)
 
 # Tutorial Posts:
 * [Reverse Engineering](/posts/reverseEng.md)
+* [Logs in Mobile Applications](/posts/logs.md)
 
 
 # Recents CTF Walkthroug Posts:
