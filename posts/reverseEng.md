@@ -109,4 +109,3 @@ In the end I would like to say that there is  one universal application for andr
         width: 55rem;
     }
 </style> 
-
