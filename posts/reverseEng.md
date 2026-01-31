@@ -61,7 +61,7 @@ For example with apktool you can check javascript or typescript code from React 
 
 React part of code you can find in assets directory with index.bundle name.
 
-Example of that case you can find in one of my previous blog posts [Hack The Box: Don’t Overreact walkthrough](/dontOverreactwalkthrough).
+Example of that case you can find in one of my previous blog posts [Hack The Box: Don’t Overreact walkthrough](/posts/dontoverreact.md).
 
 To reverse application with apktool you have to use command:
 
