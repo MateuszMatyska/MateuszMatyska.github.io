@@ -10,6 +10,7 @@ More about me you can find in [/about](/sites/about.md)
 
 # Application Security:
 * [SBOM. Why should you be a little bit less afraid when you have it in your pipeline?](/posts/sbom.md)
+* [Static Application Security Testing. Automating the Fight Against Vulnerabilities](/posts/sast.md)
 
 # Tutorial Posts:
 * [Reverse Engineering](/posts/reverseEng.md)
